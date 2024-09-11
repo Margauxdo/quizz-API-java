@@ -1,4 +1,4 @@
-package m2i.mdcb.quizz.entity;
+package m2i.mdcb.entity;
 
 public enum Category {
     HISTOIRE,
