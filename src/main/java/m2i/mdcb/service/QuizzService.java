@@ -23,6 +23,6 @@ public class QuizzService {
         int size = 20;
 
         // TODO CATEGORY
-        return new Quizz(questions, Category.HISTOIRE, size);
+        return new Quizz(questions, Category.CULTURE, size);
     }
 }
