@@ -1,14 +1,16 @@
 package m2i.mdcb.quizz.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Quizz {
-    private List<Question> questions;
+    private List<Question> questions = new ArrayList<>();
     private Category category;
     private int size;
 
 
     public Quizz() {
+        this.size = 20;
     }
 
     public List<Question> getQuestions() {

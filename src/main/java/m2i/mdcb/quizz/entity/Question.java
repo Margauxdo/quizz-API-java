@@ -1,12 +1,13 @@
 package m2i.mdcb.quizz.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Question {
     private int id;
     private String question;
-    private String goodAnswer;
-    private List<String> badAnswers;
+
+    private List<Answer> answers = new ArrayList<Answer>();
     private Category category;
 
     public Question() {
