@@ -1,4 +1,4 @@
-package org.example.quizztp_java;
+package m2i.mdcb.quizz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
